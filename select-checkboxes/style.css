@@ -1,0 +1,6 @@
+form label{
+    display: block;
+}
+input [type="checkbox"]{
+    width: 2px;height: 20px;
+}
