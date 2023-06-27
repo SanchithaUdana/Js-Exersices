@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Controlling</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <ul class="list">
+            <li id="tab1" onclick="showTab(1)" class="active">tab 1</li>
+            <li id="tab2" onclick="showTab(2)">tab 2</li>
+            <li id="tab3" onclick="showTab(3)">tab 3</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div id="tabcontent1" class="show">
+            <h1>this is tab 01</h1>
+        </div>
+        <div id="tabcontent2" class="hide">
+            <h1>this is tab 02</h1>
+        </div>
+        <div id="tabcontent3" class="hide">
+            <h1>this is tab 03</h1>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
